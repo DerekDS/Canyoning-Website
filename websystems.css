@@ -18,10 +18,19 @@ body {
 
 .grid {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 10em 10em 10em 10em;
+    grid-template-rows: 10em 10em 10em 10em;
     background-color: white;
     padding: 5px;
+    text-align: center;
+    align-content: center;
 }
+
+.gridholder {
+    display: grid;
+    place-items: center;
+}
+
 
 #header {
     background-color: #FFFFFF;
