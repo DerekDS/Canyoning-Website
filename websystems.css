@@ -33,11 +33,17 @@ body {
 }
 
 .mapgrid{
-
+    display: grid;
+    padding-left: 20%;
+    padding-right: 20%;
+    grid-template-columns: 25vmax 25vmax;
+    grid-template-rows: 5vmax 25vmax;
+    text-align: center;
+    align-content: center;
 }
 
 .mapgridholder{
-
+    display:grid;
 }
 
 #header {
