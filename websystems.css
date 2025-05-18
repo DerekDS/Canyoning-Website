@@ -17,11 +17,13 @@ body {
 }
 
 .grid {
+    padding-left: 26%;
+    padding-right: 26%;
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: 10vmax 10vmax 10vmax 10vmax;
+    /*grid-template-rows: 20vmax 20vmax 20vmax 20vmax;*/
+    grid-template-rows: 10vmax 10vmax 10vmax 10vmax;
     background-color: white;
-    padding: 5px;
     text-align: center;
     align-content: center;
 }
