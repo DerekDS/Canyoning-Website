@@ -18,8 +18,8 @@ body {
 
 .grid {
     display: grid;
-    grid-template-columns: 10em 10em 10em 10em;
-    grid-template-rows: 10em 10em 10em 10em;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
     background-color: white;
     padding: 5px;
     text-align: center;
@@ -28,9 +28,15 @@ body {
 
 .gridholder {
     display: grid;
-    place-items: center;
 }
 
+.mapgrid{
+
+}
+
+.mapgridholder{
+
+}
 
 #header {
     background-color: #FFFFFF;
