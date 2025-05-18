@@ -22,7 +22,7 @@ body {
     display: grid;
     grid-template-columns: 10vmax 10vmax 10vmax 10vmax;
     /*grid-template-rows: 20vmax 20vmax 20vmax 20vmax;*/
-    grid-template-rows: 10vmax 10vmax 10vmax 10vmax;
+    grid-template-rows: 8vmax 8vmax 8vmax 8vmax;
     background-color: white;
     text-align: center;
     align-content: center;
@@ -30,6 +30,7 @@ body {
 
 .gridholder {
     display: grid;
+    padding-bottom: 1vmax;
 }
 
 .mapgrid{
@@ -46,6 +47,10 @@ body {
     display:grid;
 }
 
+.gridstyle{
+    width: 10vmax;
+    height: 8vmax;
+}
 #header {
     background-color: #FFFFFF;
     text-align: center;
